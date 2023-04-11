@@ -21,7 +21,6 @@
     "id": "bio_arm_weapon",
     "name": { "str": "Rocket Punch" },
     "description": "An extremely lightweight fancy arm augmentation that is quite famous for its brutality and efficiency.",
-    "looks_like": "armguard_metal",
     "weight": "50 g",
     "to_hit": 3,
     "color": "dark_gray",
