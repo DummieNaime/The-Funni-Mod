@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "bonk_CBM",
+    "name": "Blunt Bionics",
+    "authors": [ "LeGuim" ],
+    "description": "Adds blunt cbm weapons. Requires Arcana because i liek the deus vult martial art.",
+    "category": "content",
+    "dependencies": [ "bn", "Arcana" ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "bionics",
+    "type": "item_group",
+    "items": [
+      [ "bio_mace", 1 ],
+      [ "bio_arm", 10 ]
+    ]
+  },
+  {
+    "id": "bionics_mil",
+    "type": "item_group",
+    "items": [
+      [ "bio_arm", 10 ]
+    ]
+  }
+]
