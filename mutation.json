@@ -1,0 +1,41 @@
+[
+    {
+    "type": "mutation",
+    "id": "OMEGA",
+    "name": { "str": "Ω" },
+    "description": "Your body had gone through all sorts of experiments, you are not even sure if you are still a human.",
+    "bodytemp_modifiers": [ -850, 850 ],
+    "wet_protection": [
+      { "part": "head", "neutral": 6 },
+      { "part": "leg_l", "neutral": 8 },
+      { "part": "leg_r", "neutral": 8 },
+      { "part": "foot_l", "neutral": 2 },
+      { "part": "foot_r", "neutral": 2 },
+      { "part": "arm_l", "neutral": 8 },
+      { "part": "arm_r", "neutral": 8 },
+      { "part": "hand_l", "neutral": 12 },
+      { "part": "hand_r", "neutral": 12 },
+      { "part": "torso", "neutral": 10 }
+    ],
+    "armor": [ { "parts": "ALL", "physical": 2 } ],
+    "points": 0,
+    "visibility": 1,
+    "ugliness": -1,
+    "valid": false,
+    "purifiable": false,
+    "profession": true
+    },
+    {
+    "type": "mutation",
+    "id": "OMEGA_HELP",
+    "name": { "str": "Instability" },
+    "description": "Your body had gone through all sorts of experiments, you can feel that your health is deteriorating.",
+    "types": [ "HEALING" ],
+    "cancels": [ "FASTHEALER", "FASTHEALER2", "REGEN", "ROT1", "ROT2", "ROT3" ],
+    "healing_awake": -0.002,
+    "healing_resting": -0.25,
+    "points": 0,
+    "valid": false,
+    "purifiable": true
+    }
+]

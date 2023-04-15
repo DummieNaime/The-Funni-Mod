@@ -1,0 +1,12 @@
+[
+  {
+    "type": "mutation",
+    "id": "LIGHTWEIGHT",
+    "name": { "str": "Lightweight" },
+    "points": -1,
+    "description": "Alcohol and drugs go straight to your head.  You suffer (and enjoy) the effects of these for longer.",
+    "starting_trait": true,
+    "category": [ "MEDICAL" ],
+    "cancels": [ "TOLERANCE" ]
+  }
+]

@@ -12,12 +12,5 @@
     "type": "martial_art",
     "name": { "str": "Barbaran Montante" },
     "extend": { "weapons": [ "bio_mace_weapon" ] }
-  },
- {
-    "id": "style_cleansingflame",
-    "copy-from": "style_cleansingflame",
-    "type": "martial_art",
-    "name": { "str": "Via Gladium et Malleo" },
-    "extend": { "weapons": [ "bio_mace_weapon" ] }
   }
 ]

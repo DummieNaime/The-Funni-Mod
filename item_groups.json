@@ -13,5 +13,28 @@
     "items": [
       [ "bio_arm", 10 ]
     ]
+  },
+  {
+    "id": "contraband",
+    "type": "item_group",
+    "items": [
+        [ "bio_mace", 1 ]
+    ]
+  },
+  {
+    "id": "vault",
+    "type": "item_group",
+    "items": [
+      [ "bio_mace", 1 ],
+      [ "bio_arm", 10 ]
+    ]
+  },
+  {
+    "id": "bionics_op",
+    "type": "item_group",
+    "items": [
+      [ "bio_mace", 1 ],
+      [ "bio_arm", 10 ]
+    ]
   }
 ]

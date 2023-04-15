@@ -1,11 +1,11 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "bonk_CBM",
-    "name": "Blunt Bionics",
+    "id": "the_funni",
+    "name": "weird ass mod",
     "authors": [ "LeGuim" ],
-    "description": "Adds blunt cbm weapons. Requires Arcana because i liek the deus vult martial art.",
+    "description": "Mod that includes an extemely shitpost of a professions and absurd funni scenario, and a couple of rare weapon bionics...",
     "category": "content",
-    "dependencies": [ "bn", "Arcana" ]
+    "dependencies": [ "bn" ]
   }
 ]

@@ -1,0 +1,86 @@
+[
+    {
+    "type": "profession",
+    "id": "prototype_omega",
+    "name": "Ω",
+    "description": "A former autodoc specialist that got kidnapped and experimented on, now a experimental prototype bionic specimen, your body is sickly and fragile but health bionics had been installed to help deal with it. You have been discovered and rescued by a group of survivors when exploring an abandoned lab, unfortunately the survivors died in a chaotic battle. Grabbing one of their bag and a pair of boots, you ran away from danger…",
+    "points": 10,
+    "traits": [
+      "OMEGA",
+      "PROF_AUTODOC",
+      "PROF_MED",
+      "OMEGA_HELP"
+    ],
+    "skills": [ { "level": 5, "name": "firstaid" },{ "level": 3, "name": "electronics" }, { "level": 3, "name": "mechanics" } ],
+    "CBMs": [
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII",
+      "bio_torsionratchet",
+      "bio_metabolics",
+      "bio_power_armor_interface_mkII",
+      "bio_leukocyte",
+      "bio_nanobots",
+      "bio_heat_absorb",
+      "bio_shock",
+      "bio_speed",
+      "bio_carbon",
+      "bio_memory",
+      "afs_bio_linguistic_coprocessor",
+      "bio_weight",
+      "bio_recycler",
+      "bio_digestion",
+      "bio_ears",
+      "bio_targeting",
+      "bio_armor_head",
+      "bio_armor_torso",
+      "bio_armor_arms",
+      "bio_armor_legs",
+      "bio_sunglasses",
+      "bio_arm"
+    ],
+    "items": {
+      "both": [
+        "subsuit_xl",
+        "boots",
+        "survivor_runner_pack",
+        "smart_phone",
+        "atomic_light"
+      ]
+    }
+  },
+  
+    {
+    "type": "profession",
+    "id": "wtf_necoarc?!?!",
+    "name": "Neco Arc",
+    "description": "Play as the Legendary Racist Cat™®©…",
+    "points": 5,
+    "traits": [
+      "THRESH_FELINE",
+      "FELINE_FLEXIBILITY",
+      "DEFT",
+      "FAST_REFLEXES",
+      "FEL_EYE",
+      "NIGHTVISION2",
+      "NAILS",
+      "TAIL_LONG",
+      "FELINE_EARS",
+      "SMALL_OK",
+      "CRAFTY"
+    ],
+    "skills": [ { "level": 3, "name": "dodge" }, { "level": 2, "name": "melee" }, { "level": 2, "name": "unarmed" } ],
+    "items": {
+    "both": {
+        "items": [
+          "longshirt",
+          "boots_hiking",
+          "runner_bag",
+          "smart_phone",
+          "wristwatch"
+        ]
+    },
+      "male": [ "skirt_leather", "boxer_shorts", "socks" ],
+      "female": [ "skirt", "bra", "panties", "stockings" ]
+    }
+    }
+]

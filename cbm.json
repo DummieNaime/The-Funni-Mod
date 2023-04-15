@@ -3,6 +3,7 @@
     "type": "GENERIC",
     "id": "bio_mace_weapon",
     "name": { "str": "Blackgard" },
+    "weapon_category": [ "BIONIC_WEAPONRY", "MACES" ],
     "description": "A thin, and slender mace of unknown origin designed to be as deadly as possible, lodged inside your arm. When taken out, it can only be held at the right hand as it cannot be removed from the user as the pommel is secured by superalloy wires. How does it fit inside? Does it bend? You will never find out...",
     "looks_like": "mace",
     "weight": "1000 g",
@@ -17,9 +18,10 @@
     "qualities": [ [ "PRY", 1 ], [ "HAMMER", 2 ] ]
   },
   {
-    "type": "TOOL",
+    "type": "GENERIC",
     "id": "bio_arm_weapon",
     "name": { "str": "Rocket Punch" },
+    "weapon_category": [ "BIONIC_WEAPONRY", "FIST_WEAPONS" ],
     "description": "An extremely lightweight fancy arm augmentation that is quite famous for its brutality and efficiency.",
     "weight": "50 g",
     "to_hit": 3,
