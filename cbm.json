@@ -31,7 +31,7 @@
     "volume": "250 ml",
     "bashing": 14,
     "cutting": 6,
-    "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "UNARMED_WEAPON", "SPEAR", "MESSY" ],
+    "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "SPEAR", "MESSY" ],
     "qualities": [ [ "PRY", 3 ], [ "HAMMER", 2 ] ]
   },
   {
