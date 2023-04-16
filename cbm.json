@@ -1,45 +1,10 @@
 [
   {
-    "type": "GENERIC",
-    "id": "bio_mace_weapon",
-    "name": { "str": "Blackgard" },
-    "weapon_category": [ "BIONIC_WEAPONRY", "MACES" ],
-    "description": "A thin, and slender mace of unknown origin designed to be as deadly as possible, lodged inside your arm. When taken out, it can only be held at the right hand as it cannot be removed from the user as the pommel is secured by superalloy wires. How does it fit inside? Does it bend? You will never find out...",
-    "looks_like": "mace",
-    "weight": "1000 g",
-    "to_hit": 2,
-    "color": "dark_gray",
-    "symbol": "{",
-    "material": [ "steel", "superalloy" ],
-    "techniques": [ "BRUTAL", "WBLOCK_3", "SWEEP" ],
-    "volume": "2000 ml",
-    "bashing": 80,
-    "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "MESSY" ],
-    "qualities": [ [ "PRY", 1 ], [ "HAMMER", 2 ] ]
-  },
-  {
-    "type": "GENERIC",
-    "id": "bio_arm_weapon",
-    "name": { "str": "Rocket Punch" },
-    "weapon_category": [ "BIONIC_WEAPONRY", "FIST_WEAPONS" ],
-    "description": "An extremely lightweight fancy arm augmentation that is quite famous for its brutality and efficiency.",
-    "weight": "50 g",
-    "to_hit": 3,
-    "color": "dark_gray",
-    "symbol": "{",
-    "material": [ "steel" ],
-    "volume": "250 ml",
-    "bashing": 14,
-    "cutting": 6,
-    "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "UNARMED_WEAPON", "SPEAR", "MESSY" ],
-    "qualities": [ [ "PRY", 3 ], [ "HAMMER", 2 ] ]
-  },
-  {
     "type": "bionic",
     "id": "bio_mace",
     "name": { "str": "Metal Arm?" },
     "occupied_bodyparts": [ [ "arm_r", 10 ], [ "hand_r", 10 ] ],
-    "act_cost": "1 kJ",
+    "act_cost": "20 kJ",
     "fake_item": "bio_mace_weapon",
     "description": "A customized metal arm that replaces your right arm, it is strange however that this new arm of yours feels very sturdy, but hallow at the same time. Perhaps something is inside...",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
@@ -49,7 +14,7 @@
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
     "name": { "str": "Metal Arm CBM" },
-    "description": "A fancy metal arm replacement often used by police enforcers, cqc enthusiasts, and some... unsavory individuals. This however only has one arm and the other one is missing, it is safe to assume that this one is heavily modified and dangerous.",
+    "description": "A fancy metal arm replacement often used by police enforcers, cqc enthusiasts, and some... unsavory individuals. This however only has a single arm and the other one is missing, it is safe to assume that this one is heavily modified and dangerous.",
     "price": "250 USD",
     "difficulty": 12
   },
@@ -74,6 +39,24 @@
     "description": "A fancy metal arm replacement often used by police enforcers, cqc enthusiasts, and some... unsavory individuals.",
     "price": "250 USD",
     "difficulty": 12
-
+  },
+  {
+    "type": "bionic",
+    "id": "bio_halberd",
+    "name": { "str": "Compact Halberd" },
+    "occupied_bodyparts": [ [ "arm_l", 10 ], [ "arm_r", 10 ], [ "hand_l", 12 ], [ "hand_r", 12 ] ],
+    "act_cost": "10 kJ",
+    "fake_item": "bio_halberd_weapon",
+    "description": "Your arms had been replaced by a shiny new metallic limb, activate to take out the halberd.",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+  },
+  {
+    "id": "bio_halberd",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Compact Halberd CBM" },
+    "description": "A very fancy arm augmentation that has a compact halberd inside. A simple command from the user will activate the arm and will assemble the weapon at the most efficient way possible.",
+    "price": "250 USD",
+    "difficulty": 12
   }
 ]

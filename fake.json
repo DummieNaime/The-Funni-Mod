@@ -1,0 +1,54 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "bio_mace_weapon",
+    "name": { "str": "Blackgard" },
+    "weapon_category": [ "BIONIC_WEAPONRY", "MACES" ],
+    "description": "A thin, and slender mace of unknown origin designed to be as deadly as possible, lodged inside your arm. When taken out, it can only be held at the right hand as it cannot be removed from the user because the pommel is secured by superalloy wires...",
+    "looks_like": "mace",
+    "to_hit": 2,
+    "color": "dark_gray",
+    "symbol": "î",
+    "material": [ "steel", "superalloy" ],
+    "techniques": [ "BRUTAL", "WBLOCK_3", "SWEEP" ],
+    "volume": "2000 ml",
+    "bashing": 80,
+    "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "MESSY" ],
+    "qualities": [ [ "PRY", 1 ], [ "HAMMER", 2 ] ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "bio_arm_weapon",
+    "name": { "str": "Rocket Punch" },
+    "weapon_category": [ "BIONIC_WEAPONRY", "FIST_WEAPONS" ],
+    "description": "An extremely lightweight fancy arm augmentation that is quite famous for its brutality and efficiency.",
+    "to_hit": 3,
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [ "steel" ],
+    "volume": "250 ml",
+    "bashing": 14,
+    "cutting": 6,
+    "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "UNARMED_WEAPON", "SPEAR", "MESSY" ],
+    "qualities": [ [ "PRY", 3 ], [ "HAMMER", 2 ] ]
+  },
+  {
+    "id": "bio_halberd_weapon",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "2H_AXES" ],
+    "symbol": "/",
+    "color": "dark_gray",
+    "name": { "str": "Ravager" },
+    "description": "A versatile six-foot long piece of metal designed to kill something at long range and dismounting cavalry. Absolutely useless in this age where guns dominate the battlefield, however it did not stop some wealthy individuals to flaunt their wealth and produce such weapon that can fit inside an augmented arm.",
+    "looks_like": "halberd",
+    "material": [ "steel", "superalloy" ],
+    "flags": [ "UNBREAKABLE_MELEE", "NO_UNWIELD", "NO_DROP", "TRADER_AVOID", "REACH_ATTACK", "NONCONDUCTIVE", "POLEARM" ],
+    "techniques": [ "WBLOCK_1", "WIDE", "SWEEP", "IMPALE" ],
+    "volume": "3750 ml",
+    "bashing": 25,
+    "cutting": 50,
+    "qualities": [ [ "COOK", 1 ], [ "BUTCHER", -20 ] ]
+  }
+
+]

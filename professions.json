@@ -36,7 +36,9 @@
       "bio_armor_arms",
       "bio_armor_legs",
       "bio_sunglasses",
-      "bio_arm"
+      "bio_arm",
+      "bio_mace",
+      "bio_halberd
     ],
     "items": {
       "both": [
