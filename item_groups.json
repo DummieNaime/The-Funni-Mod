@@ -9,29 +9,31 @@
     ]
   },
   {
-    "id": "bionics_mil",
+    "id": "bionics_op",
     "type": "item_group",
     "items": [
-      [ "bio_arm", 10 ],
-      [ "bio_halberd", 1 ]
-    ]
-  },
-  {
-    "id": "contraband",
-    "type": "item_group",
-    "items": [ [ "bio_mace", 1 ] ]
-  },
-  {
-    "id": "vault",
-    "type": "item_group",
-    "items": [
-      [ "bio_mace", 1 ],
-      [ "bio_halberd", 1 ],
       [ "bio_arm", 10 ]
     ]
   },
   {
-    "id": "bionics_op",
+    "id": "bionics_op2_off",
+    "type": "item_group",
+    "items": [
+      [ "bio_mace", 1 ],
+      [ "bio_halberd", 1 ]
+    ]
+  },
+  {
+    "id": "bionics_mil",
+    "type": "item_group",
+    "items": [
+      [ "bio_arm", 10 ],
+      [ "bio_mace", 1 ],
+      [ "bio_halberd", 1 ]
+    ]
+  },
+  {
+    "id": "bio_bank_vault",
     "type": "item_group",
     "items": [
       [ "bio_mace", 1 ],
