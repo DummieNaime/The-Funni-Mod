@@ -7,7 +7,7 @@
     "act_cost": "20 kJ",
     "fake_item": "bio_mace_weapon",
     "description": "A customized metal arm that replaces your right arm, it is strange however that this new arm of yours feels very sturdy, but hallow at the same time. Perhaps something is inside...",
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
   },
   {
     "id": "bio_mace",
@@ -29,7 +29,7 @@
     "time": 1,
     "fake_item": "bio_arm_weapon",
     "description": "A customized metal arms that completely replaces your arms. Extremely lightweight, sturdy and agile. Still needs constant supply of electricity to use properly.",
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
   },
   {
     "id": "bio_arm",
@@ -48,7 +48,7 @@
     "act_cost": "10 kJ",
     "fake_item": "bio_halberd_weapon",
     "description": "Your arms had been replaced by a shiny new metallic limb, activate to take out the halberd.",
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
   },
   {
     "id": "bio_halberd",
@@ -65,8 +65,7 @@
     "name": { "str": "Iron Lung" },
     "occupied_bodyparts": [ [ "torso", 3 ], [ "mouth", 1 ] ] ,
     "description": "Your breathing feels good.",
-    "canceled_mutations": [ "ASTHMA" ],
-    "flags": [ "BIONIC_NPC_USABLE" ]
+    "canceled_mutations": [ "ASTHMA" ]
   },
   {
     "id": "bio_ironlung",
