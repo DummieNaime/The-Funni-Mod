@@ -16,7 +16,7 @@
     "name": { "str": "Metal Arm CBM" },
     "description": "A fancy metal arm replacement often used by police enforcers, cqc enthusiasts, and some... unsavory individuals. This however only has a single arm and the other one is missing, it is safe to assume that this one is heavily modified and dangerous.",
     "price": "250 USD",
-    "difficulty": 12
+    "difficulty": 15
   },
   {
     "type": "bionic",
@@ -38,7 +38,7 @@
     "name": { "str": "Metal Arms CBM" },
     "description": "A fancy metal arm replacement often used by police enforcers, cqc enthusiasts, and some... unsavory individuals.",
     "price": "250 USD",
-    "difficulty": 12
+    "difficulty": 8
   },
   {
     "type": "bionic",
@@ -57,6 +57,24 @@
     "name": { "str": "Compact Halberd CBM" },
     "description": "A very fancy arm augmentation that has a compact halberd inside. A simple command from the user will activate the arm and will assemble the weapon at the most efficient way possible.",
     "price": "250 USD",
-    "difficulty": 12
+    "difficulty": 10
+  },
+  {
+    "type": "bionic",
+    "id": "bio_ironlung",
+    "name": { "str": "Iron Lung" },
+    "occupied_bodyparts": [ [ "torso", 3 ], [ "mouth", 1 ] ] ,
+    "description": "Your breathing feels good.",
+    "canceled_mutations": [ "ASTHMA" ],
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_ironlung",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Iron Lung" },
+    "description": "A medical respiratory aid for those who had problems with tuberculosis, pneumonia, asthma and other lung related disease that is widely sold at major medical institutes before the cataclysm. However, this won't protect you from any hazardous air contaminants.",
+    "price": "500 USD",
+    "difficulty": 10
   }
 ]

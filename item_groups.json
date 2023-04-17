@@ -4,23 +4,30 @@
     "type": "item_group",
     "items": [
       [ "bio_mace", 1 ],
-      [ "bio_halberd", 1 ],
+      [ "bio_halberd", 5 ],
+      [ "bio_ironlung", 8 ],
       [ "bio_arm", 10 ]
     ]
+  },
+  {
+     "id": "bionics_common",
+     "type": "item_group",
+     "subtype": "distribution",
+     "items": [ [ "bio_ironlung", 8 ] ]
   },
   {
     "id": "bionics_op",
     "type": "item_group",
-    "items": [
-      [ "bio_arm", 10 ]
-    ]
+    "subtype": "distribution",
+    "items": [ [ "bio_arm", 10 ] ]
   },
   {
     "id": "bionics_op2_off",
     "type": "item_group",
+    "subtype": "distribution",
     "items": [
-      [ "bio_mace", 1 ],
-      [ "bio_halberd", 1 ]
+      [ "bio_mace", 2 ],
+      [ "bio_halberd", 8 ]
     ]
   },
   {
@@ -29,15 +36,23 @@
     "items": [
       [ "bio_arm", 10 ],
       [ "bio_mace", 1 ],
-      [ "bio_halberd", 1 ]
+      [ "bio_halberd", 5 ]
     ]
+  },
+  {
+    "id": "bionics_zapper",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [ [ "bio_ironlung", 8 ] ]
   },
   {
     "id": "bio_bank_vault",
     "type": "item_group",
+    "subtype": "distribution",
     "items": [
       [ "bio_mace", 1 ],
-      [ "bio_halberd", 1 ],
+      [ "bio_halberd", 5 ],
+      [ "bio_ironlung", 8 ],
       [ "bio_arm", 10 ]
     ]
   }
