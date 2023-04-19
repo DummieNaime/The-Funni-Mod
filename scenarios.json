@@ -3,7 +3,7 @@
     "type": "scenario",
     "id": "sheltered_experiment",
     "name": "Cruel World",
-    "description": "Before the world ended, you are bought to a lab. An unwilling participant of a sadistic experiment. A group of survivors broke inside your cell as they intend to recover all manner of technology. In an intense firefight agains security bots and horrors beyond human comprehension, survivors die one by one, you have manage to find an exit amidst the chaos…",
+    "description": "Before the world ended, you are created in a lab. An unwilling participant of a sadistic experiment. A group of survivors broke inside your cell as they intend to recover all manner of technology. In an intense firefight agains security bots and horrors beyond human comprehension, survivors die one by one, you have manage to find an exit amidst the chaos…",
     "traits": [
       "ELFAEYES",
       "URSINE_EYE",
@@ -50,6 +50,18 @@
     "points": -15,
     "start_name": "Escape",
     "allowed_locs": [ "sloc_forest" ],
-    "professions": [ "prototype_omega", "wtf_necoarc?!?!", "mutant_patient" ]
+    "professions": [ "tfm_omega", "tfm_neco", "mutant_patient" ]
+  },
+  {
+    "type": "scenario",
+    "id": "patient_ill",
+    "name": "Mad World",
+    "points": -12,
+    "description": "You had been placed in this hospital because you saw the truth, but no one believed you. Now all of them will face the consequences of their actions.",
+    "allowed_locs": [ "sloc_hospital" ],
+    "start_name": "Hospital",
+    "forced_traits": [ "SCHIZOPHRENIC" ],
+    "professions": [ "tfm_ill" ],
+    "flags": [ "LONE_START" ]
   }
 ]

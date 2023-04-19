@@ -1,0 +1,23 @@
+[
+  {
+    "id": "straightjacket",
+    "repairs_like": "armor_larmor",
+    "type": "ARMOR",
+    "name": { "str": "straight jacket" },
+    "description": "A padded jacket with bindings at the back torso and arms, cannot be removed that easily.",
+    "weight": "800 g",
+    "volume": "2500 ml",
+    "price": 3000,
+    "price_postapoc": 0,
+    "material": [ "cotton", "budget_steel" ],
+    "symbol": "[",
+    "looks_like": "fencing_jacket",
+    "color": "white",
+    "covers": [ "torso", "arms", "hands" ],
+    "coverage": 100,
+    "encumbrance": 100,
+    "warmth": 15,
+    "material_thickness": 5,
+    "flags": [ "NO_DROP", "NO_TAKEOFF", "FRAGILE" ]
+  }
+]

@@ -4,7 +4,7 @@
     "id": "bio_mace_weapon",
     "name": { "str": "Blackgard" },
     "weapon_category": [ "BIONIC_WEAPONRY", "MACES" ],
-    "description": "A thin, and slender mace of unknown origin designed to be as deadly as possible, lodged inside your arm. When taken out, it can only be held at the right hand as it cannot be removed from the user because the pommel is secured by superalloy wires...",
+    "description": "A thin, and slender mace of unknown origin designed to be as deadly as possible that was lodged inside your arm. When taken out, it can only be held at the right hand as it cannot be removed from the user because the pommel is secured by superalloy wires...",
     "looks_like": "mace",
     "to_hit": 2,
     "color": "dark_gray",
@@ -29,7 +29,7 @@
     "volume": "250 ml",
     "bashing": 14,
     "cutting": 6,
-    "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "UNARMED_WEAPON", "SPEAR", "MESSY" ],
+    "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "UNARMED_WEAPON", "STAB", "MESSY" ],
     "qualities": [ [ "PRY", 3 ], [ "HAMMER", 2 ] ]
   },
   {
@@ -46,8 +46,8 @@
     "flags": [ "UNBREAKABLE_MELEE", "NO_UNWIELD", "NO_DROP", "TRADER_AVOID", "REACH_ATTACK", "NONCONDUCTIVE", "POLEARM" ],
     "techniques": [ "WBLOCK_1", "WIDE", "SWEEP", "IMPALE" ],
     "volume": "3750 ml",
-    "bashing": 25,
-    "cutting": 50,
+    "bashing": 20,
+    "cutting": 55,
     "qualities": [ [ "COOK", 1 ], [ "BUTCHER", -20 ] ]
   }
 

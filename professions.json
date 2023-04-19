@@ -1,7 +1,7 @@
 [
     {
     "type": "profession",
-    "id": "prototype_omega",
+    "id": "tfm_omega",
     "name": "Ω",
     "description": "A former autodoc specialist that got kidnapped and experimented on, now a experimental prototype bionic specimen, your body is sickly and fragile but health bionics had been installed to help deal with it. You have been discovered and rescued by a group of survivors when exploring an abandoned lab, unfortunately the survivors died in a chaotic battle. Grabbing one of their bag and a pair of boots, you ran away from danger…",
     "points": 10,
@@ -36,7 +36,9 @@
       "bio_armor_arms",
       "bio_armor_legs",
       "bio_sunglasses",
-      "bio_arm"
+      "bio_arm",
+      "bio_mace",
+      "bio_halberd"
     ],
     "items": {
       "both": [
@@ -51,7 +53,7 @@
   
     {
     "type": "profession",
-    "id": "wtf_necoarc?!?!",
+    "id": "tfm_neco",
     "name": "Neco Arc",
     "description": "Play as the Legendary Racist Cat™®©…",
     "points": 5,
@@ -81,6 +83,25 @@
     },
       "male": [ "skirt_leather", "boxer_shorts", "socks" ],
       "female": [ "skirt", "bra", "panties", "stockings" ]
+    }
+    },
+    {
+    "type": "profession",
+    "id": "tfm_ill",
+    "name": { "male": "Madman", "female": "Madwoman" },
+    "description": "You have seen the future, the degradation and death of this world. They despised you because you know the truth...",
+    "points": 0,
+    "items": {
+    "both": {
+        "items": [
+          "straightjacket",
+          "jeans",
+          "boots",
+          "socks"
+        ]
+    },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
     }
     }
 ]
