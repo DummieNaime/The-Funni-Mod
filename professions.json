@@ -12,7 +12,7 @@
       "FLIMSY3",
       "GLASSJAW"
     ],
-    "skills": [ { "level": 5, "name": "dodge" },{ "level": 5, "name": "melee" }, { "level": 5, "name": "unarmed" } ],
+    "skills": [ { "level": 5, "name": "dodge" },{ "level": 5, "name": "firstaid" }, { "level": 5, "name": "mechanics" } ],
     "CBMs": [
       "op_generator",
       "bio_power_armor_interface_mkII",
