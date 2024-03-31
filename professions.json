@@ -39,7 +39,7 @@
     "id": "tfm_prototype",
     "name": "Experimental Prototype Cyborg",
     "description": "You are one of the first who had been outfitted with an experimental cryo engine, a strange alien device that generates energy and radiates cold aura.",
-    "points": 5,
+    "points": -5,
     "CBMs": [
       "bio_drain",
       "bio_power_weakness",
