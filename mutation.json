@@ -38,23 +38,5 @@
     "points": 0,
     "valid": false,
     "purifiable": true
-    },
-    {
-    "type": "mutation",
-    "id": "OMEGA_MILK",
-    "name": { "str": "Ambrosia" },
-    "description": "Your body had gone through all sorts of experiments, you can feel that your breast is filled with ambrosia.",
-    "points": 0,
-    "visibility": 2,
-    "ugliness": -5,
-    "valid": false,
-    "purifiable": false,
-    "profession": true,
-    "starting_trait": true,
-    "active": true,
-    "cost": 200,
-    "hunger": true,
-    "thirst": true,
-    "spawn_item": { "type": "ambrosia", "message": "You squeezed your boobs." }
     }
 ]
