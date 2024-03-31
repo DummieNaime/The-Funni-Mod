@@ -3,8 +3,8 @@
     "type": "mutation",
     "id": "OMEGA",
     "name": { "str": "Ω" },
-    "description": "Your body had gone through all sorts of experiments, you are not even sure if you are still a human.",
-    "bodytemp_modifiers": [ -1000, 850 ],
+    "description": "Your body had gone through all sorts of experiments, you barely feel anything at all.",
+    "bodytemp_modifiers": [ -1000, 1000 ],
     "wet_protection": [
       { "part": "head", "neutral": 10 },
       { "part": "leg_l", "neutral": 10 },
@@ -17,13 +17,14 @@
       { "part": "hand_r", "neutral": 10 },
       { "part": "torso", "neutral": 10 }
     ],
-    "armor": [ { "parts": "ALL", "physical": 2 } ],
+    "armor": [ { "parts": "ALL", "physical": 10 } ],
     "points": 0,
     "visibility": 1,
     "ugliness": -1,
     "valid": false,
     "purifiable": false,
-    "profession": true
+    "profession": true,
+    "starting_trait": true
     },
     {
     "type": "mutation",
@@ -37,5 +38,23 @@
     "points": 0,
     "valid": false,
     "purifiable": true
+    },
+    {
+    "type": "mutation",
+    "id": "OMEGA_MILK",
+    "name": { "str": "Ambrosia" },
+    "description": "Your body had gone through all sorts of experiments, you can feel that your breast is filled with ambrosia.",
+    "points": 0,
+    "visibility": 2,
+    "ugliness": -5,
+    "valid": false,
+    "purifiable": false,
+    "profession": true,
+    "starting_trait": true,
+    "active": true,
+    "cost": 200,
+    "hunger": true,
+    "thirst": true,
+    "spawn_item": { "type": "ambrosia", "message": "You squeezed your boobs." }
     }
 ]

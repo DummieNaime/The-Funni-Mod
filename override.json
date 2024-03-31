@@ -8,5 +8,37 @@
     "starting_trait": true,
     "category": [ "MEDICAL" ],
     "cancels": [ "TOLERANCE" ]
+  },
+  {
+    "type": "mutation",
+    "id": "ROBUST",
+    "name": { "str": "Robust Genetics" },
+    "points": 3,
+    "description": "You have a very strong genetic base.  If you mutate, the odds that the mutation will be beneficial are greatly increased.",
+    "starting_trait": true,
+    "cancels": [ "CHAOTIC_BAD" ],
+    "category": [ "FISH", "SLIME", "ALPHA", "MEDICAL" ]
+  },
+  {
+    "id": "power_armor_frame",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "power armor hauling frame" },
+    "description": "A heavy duty hauling frame designed to interface with military exoskeletons.",
+    "weight": "1640 g",
+    "volume": "12 L",
+    "price": 1000000,
+    "price_postapoc": 10000,
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "steel" ],
+    "symbol": "[",
+    "looks_like": "backpack_tactical_large",
+    "color": "light_gray",
+    "covers": [ "torso" ],
+    "coverage": 30,
+    "encumbrance": 5,
+    "storage": "80 L",
+    "material_thickness": 10,
+    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED", "ONLY_ONE" ]
   }
 ]

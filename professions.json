@@ -3,50 +3,50 @@
     "type": "profession",
     "id": "tfm_omega",
     "name": "Ω",
-    "description": "A former autodoc specialist that got kidnapped and experimented on, now a experimental prototype bionic specimen, your body is sickly and fragile but health bionics had been installed to help deal with it. You have been discovered and rescued by a group of survivors when exploring an abandoned lab, unfortunately the survivors died in a chaotic battle. Grabbing one of their bag and a pair of boots, you ran away from danger…",
-    "points": 10,
+    "description": "A former autodoc surgeon, an experimental prototype designed for extended sugery, your body is sickly and fragile as you are stored in a cryo pod in a nearby spacestation. The space station malfunctioned and your pod violently crashed into the planet's surface. You have been discovered and rescued by a group of survivors, unfortunately the all of the survivors died in a chaotic battle. Grabbing one of their bag, you ran away from danger…",
+    "points": 0,
     "traits": [
       "OMEGA",
       "PROF_AUTODOC",
       "PROF_MED",
-      "OMEGA_HELP"
+      "FLIMSY3",
+      "GLASSJAW"
     ],
-    "skills": [ { "level": 5, "name": "firstaid" },{ "level": 3, "name": "electronics" }, { "level": 3, "name": "mechanics" } ],
+    "skills": [ { "level": 5, "name": "dodge" },{ "level": 5, "name": "melee" }, { "level": 5, "name": "unarmed" } ],
     "CBMs": [
-      "bio_power_storage_mkII",
-      "bio_power_storage_mkII",
-      "bio_torsionratchet",
-      "bio_metabolics",
+      "op_generator",
       "bio_power_armor_interface_mkII",
       "bio_leukocyte",
-      "bio_nanobots",
-      "bio_heat_absorb",
-      "bio_shock",
-      "bio_speed",
-      "bio_carbon",
+      "bio_synaptic_regen",
       "bio_memory",
       "afs_bio_linguistic_coprocessor",
-      "bio_weight",
       "bio_recycler",
       "bio_digestion",
-      "bio_ears",
-      "bio_targeting",
-      "bio_armor_head",
-      "bio_armor_torso",
-      "bio_armor_arms",
-      "bio_armor_legs",
-      "bio_sunglasses",
-      "bio_arm"
+      "bio_eye_optic",
+      "bio_surgical_razor",
+      "bio_syringe",
+      "bio_ups"
     ],
     "items": {
       "both": [
-        "subsuit_xl",
-        "boots",
         "survivor_runner_pack",
-        "smart_phone",
-        "atomic_light"
+        "smart_phone"
       ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "tfm_prototype",
+    "name": "Experimental Prototype Cyborg",
+    "description": "You are one of the first who had been outfitted with an experimental cryo engine, a strange alien device that generates energy and radiates cold aura.",
+    "points": 5,
+    "CBMs": [
+      "bio_drain",
+      "bio_power_weakness",
+      "bio_leaky",
+      "bio_leukocyte",
+      "op_generator"
+    ]
   },
   
     {

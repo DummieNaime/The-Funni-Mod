@@ -14,7 +14,7 @@
     "volume": "2000 ml",
     "bashing": 80,
     "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "MESSY" ],
-    "qualities": [ [ "PRY", 1 ], [ "HAMMER", 2 ] ]
+    "qualities": [ [ "PRY", 2 ], [ "HAMMER", 2 ] ]
   },
   {
     "type": "GENERIC",
@@ -30,7 +30,7 @@
     "bashing": 14,
     "cutting": 6,
     "flags": [ "NO_UNWIELD", "NO_DROP", "UNBREAKABLE_MELEE", "TRADER_AVOID", "UNARMED_WEAPON", "STAB", "MESSY" ],
-    "qualities": [ [ "PRY", 3 ], [ "HAMMER", 2 ] ]
+    "qualities": [ [ "PRY", 4 ], [ "HAMMER", 4 ] ]
   },
   {
     "id": "bio_halberd_weapon",

@@ -2,8 +2,8 @@
   {
     "type": "scenario",
     "id": "sheltered_experiment",
-    "name": "Cruel World",
-    "description": "Before the world ended, you are bought to a lab. An unwilling participant of a sadistic experiment. A group of survivors broke inside your cell as they intend to recover all manner of technology. In an intense firefight agains security bots and horrors beyond human comprehension, survivors die one by one, you have manage to find an exit amidst the chaos…",
+    "name": "Crashlanded",
+    "description": "You had been hired as a crew at a nearby spacestation. Before the cataclysm, you and your fellow crewmates (amongus!1!!111!) are already aware of the threat from beyond and was placed in a cryo pod. The station was malfunctioned and crashed into the surface of the planet when a group of survivors discovered your pod. In an intense firefight agains security bots and horrors beyond human comprehension, survivors die one by one, you have manage to ran away amidst the chaos…",
     "traits": [
       "ELFAEYES",
       "URSINE_EYE",
@@ -46,22 +46,27 @@
       "CHITIN",
       "ELECTRORECEPTORS"
     ],
-    "flags": [ "LONE_START", "WIN_START", "SUR_START", "INFECTED" ],
-    "points": -15,
+    "flags": [ "LONE_START", "SUR_START" ],
+    "points": 0,
     "start_name": "Escape",
     "allowed_locs": [ "sloc_forest" ],
-    "professions": [ "tfm_omega", "tfm_neco", "mutant_patient" ]
+    "professions": [ "tfm_omega", "tfm_neco", "mutant_patient", "tfm_prototype" ]
   },
   {
     "type": "scenario",
     "id": "patient_ill",
     "name": "Mad World",
-    "points": -12,
+    "points": -15,
     "description": "You had been placed in this hospital because you saw the truth, but no one believed you. Now all of them will face the consequences of their actions.",
     "allowed_locs": [ "sloc_hospital" ],
     "start_name": "Hospital",
     "forced_traits": [ "SCHIZOPHRENIC" ],
     "professions": [ "tfm_ill" ],
     "flags": [ "LONE_START" ]
+  },
+  {
+    "type": "scenario",
+    "id": "bad_day",
+    "copy-from": "bad_day"
   }
 ]

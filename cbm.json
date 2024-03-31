@@ -75,5 +75,56 @@
     "description": "A medical respiratory aid for those who had problems with tuberculosis, pneumonia, asthma and other lung related disease that is widely sold at major medical institutes before the cataclysm. However, this won't protect you from any hazardous air contaminants.",
     "price": "500 USD",
     "difficulty": 10
+  },
+  {
+    "//": "stolen code lmao, i had no idea how this works so i just copied and pasted the whole thing straight from cata++ mod lmao, pls tell me if this is not allowed",
+    "type": "GENERIC",
+    "id": "cryo_power",
+    "symbol": "?",
+    "color": "white",
+    "name": { "str": "Cryo Power", "str_pl": "none" },
+    "description": "seeing this is a bug",
+    "stackable": true,
+    "volume": "0 ml",
+    "flags": [ "PSEUDO", "PERPETUAL" ],
+    "fuel": { "energy": 1 }
+  },
+  {
+    "id": "op_generator",
+    "//": " :3 ",
+    "type": "bionic",
+    "name": { "str": "Cryo Generator" },
+    "description": "Your body has been implanted with a compact, experimental cryo generator that generates bionic power.  The generator will constantly produce cold aura instead of producing heat to generate power.  It will produce power continuously unless interrupted by the integral disconnect switch.",
+    "occupied_bodyparts": [ [ "torso", 2 ] ],
+    "included_bionics": [ "op_generator_halter" ],
+    "flags": [ "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "op_generator_halter",
+    "//": " :3 ",
+    "type": "bionic",
+    "name": { "str": "Cryo Generator Halter" },
+    "description": "Emergy safety switch that can be manually used by the user.  Turn it on to halt power production, in the unlikely event that it becomes necessary.",
+    "fuel_options": [ "cryo_power" ],
+    "passive_fuel_efficiency": 1,
+    "capacity": "2500 kJ",
+    "time": 1,
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "op_generator",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Exprimental Cryo Generator" },
+    "description": "Experimental cryo generator that generates limitless energy. A strange alien device that constantly produce cold aura.  It will produce power continuously unless interrupted by the integral disconnect switch.",
+    "price": "8000 USD",
+    "difficulty": 12
+  },
+  {
+    "id": "op_generator_halter",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Cryo Generator Halter" },
+    "description": "A system of power control and safety mechanisms normally built into a Cryo Generator.  Removing it is almost certainly a bad idea."
   }
 ]

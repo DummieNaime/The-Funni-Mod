@@ -1,0 +1,25 @@
+[
+{
+    "id": "ambrosia",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": "Ambrosia",
+    "description": "Raw, gellatin like ambrosia produced straight out of your body, consuming it is quite risky as it will make the consumer hallucinate for a very long time.",
+    "weight": "258 g",
+    "volume": "250 ml",
+    "material": "milk",
+    "price": 10000,
+    "price_postapoc": 2500,
+    "symbol": "~",
+    "color": "white",
+    "looks_like": "milk",
+    "stim": 40,
+    "fun": 50,
+    "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE" ],
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You consumed the ambrosial milk.",
+      "effects": [ { "id": "hallu", "duration": 7200 } ]
+    }
+}
+]
